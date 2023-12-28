@@ -5,6 +5,9 @@ from PyQt5.QtGui import *
 import sys
 import os
 import subprocess
+import time
+
+time.sleep(5)
 
 class UkrOSWelcome(QWidget):
     def __init__(self):

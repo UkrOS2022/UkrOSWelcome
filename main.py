@@ -79,7 +79,8 @@ class UkrOSWelcome(QWidget):
         self.community_label.setGeometry(25, 125, 330, 30)
         self.community_label.hide()
         
-        self.community_input = QLineEdit("Your community", self)
+        self.community_input = QLineEdit(self)
+        self.community_input.setPlaceholderText('Your community')
         self.community_input.setGeometry(25, 150, 130, 30)
         self.community_input.hide()
 
